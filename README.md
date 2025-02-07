@@ -4,17 +4,19 @@
 
 ## Overview
 
-This Flutter application displays the device's model and operating system version in a modern and creative design. It utilizes the `device_info_plus` package to retrieve detailed device information across multiple platforms.
+This Flutter application allows users to read and write media files on their devices. It provides a modern and creative design to interact with the device's media storage. The app utilizes the `permission_handler` and `image_picker` packages to manage permissions and access media files.
 
 ## Features
 
 - **Cross-Platform Support:** Runs seamlessly on Android, iOS, Web, macOS, Linux, and Windows.
 - **Responsive Design:** Adapts to various screen sizes and orientations.
 - **Modern UI:** Implements a clean and intuitive user interface.
+- **Media Access:** Read and write images and videos from the device's storage.
 
 ## Dependencies
 
-- [device_info_plus](https://pub.dev/packages/device_info_plus): A Flutter plugin providing detailed information about the device (make, model, etc.) and the operating system version the app is running on.
+- [permission_handler](https://pub.dev/packages/permission_handler): A Flutter plugin to handle permissions.
+- [image_picker](https://pub.dev/packages/image_picker): A Flutter plugin for selecting images and videos from the image library and taking new pictures and videos with the camera.
 
 ## Getting Started
 
@@ -22,7 +24,7 @@ This Flutter application displays the device's model and operating system versio
 
    ```bash
    git clone https://github.com/OmarAmeer96/Sprints-Media-Access-Task.git
-   cd device_info_app
+   cd media_access_app
    ```
 
 2. **Install Dependencies:**
@@ -39,4 +41,4 @@ This Flutter application displays the device's model and operating system versio
 
 ## Usage
 
-Upon launching the app, the main screen will display the device's model and operating system version centered on the screen.
+Upon launching the app, the main screen will allow users to read and write media files from their device's storage.
