@@ -1,6 +1,6 @@
 # Media Access App
 
-## Screenshots (English)
+## Screenshots
 
 | No Images State | Selecting Images State | Selected Images State |
 | --------------- | ---------------------- | --------------------- |
